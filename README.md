@@ -5,7 +5,6 @@ A Streamlit dashboard and NLP pipeline for analyzing Romanian presidential speec
 ## Project Contents
 
 - `dashboard.py` — Streamlit dashboard for interactive visualization and analysis.
-- `streamlit.py` — original app file; do not run this directly because it can shadow the `streamlit` package.
 - `ParlEE_RO_plenary_speeches.csv` — parliamentary speech dataset.
 - `iliescu.txt`, `constantinescu.txt`, `basescu.txt`, `iohannis.txt` — presidential speech texts.
 - `tfidf_matrix_presidents.csv` — cached TF-IDF matrix for presidential speeches.
