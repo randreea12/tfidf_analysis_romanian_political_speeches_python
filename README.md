@@ -5,11 +5,12 @@ A Streamlit dashboard and NLP pipeline for analyzing Romanian presidential speec
 ## Project Contents
 
 - `dashboard.py` — Streamlit dashboard for interactive visualization and analysis.
-- `ParlEE_RO_plenary_speeches.csv` — parliamentary speech dataset (I linked the place you can download the dataset due to its size).
-- `iliescu.txt`, `constantinescu.txt`, `basescu.txt`, `iohannis.txt` — presidential speech texts (I linked the place you can download the dataset due to its size).
 - `tfidf_matrix_presidents.csv` — cached TF-IDF matrix for presidential speeches.
 - `tfidf_matrix_parliamentary.csv` — cached TF-IDF matrix for parliamentary speeches.
-
+The following files are NOT included in this repo due to size. Download them and place them in the same folder as `dashboard.py`:
+- `ParlEE_RO_plenary_speeches.csv` — download from [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOPK0E)
+- `iliescu.txt`, `constantinescu.txt`, `basescu.txt`, `iohannis.txt` — download from [GitHub](https://github.com/grrrrah/RomanianPresidentialDiscourses)
+  
 ## Dataset Citations
 
 - ParLEE plenary speeches V2 dataset: Sylvester, C. (Creator), Greene, Z. (Creator), Ershova, A. (Contributor), Khokhlova, A. (Contributor), Yordanova, N. (Creator) (21 Feb 2023). ParlEE plenary speeches V2 data set: Annotated full-text of 15.1 million sentence-level plenary speeches of six EU legislative chambers. Harvard Dataverse. https://doi.org/10.7910/DVN/VOPK0E
