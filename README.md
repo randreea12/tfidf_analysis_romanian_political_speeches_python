@@ -77,4 +77,14 @@ In this project, TF-IDF is used to find the most characteristic words for each p
 
 - `The term 'streamlit' is not recognized` — use `python -m streamlit run dashboard.py`
 - `Execution policies` when activating venv in PowerShell — either use the `.bat` activate script or run PowerShell as administrator and adjust policy to `RemoteSigned` temporarily.
+- If the dahsbaord cannot find the files, update the file constant at the beginging of the code to:
+`PARLIAMENT_CSV        = "ParlEE_dataset/ParlEE_RO_plenary_speeches.csv"
+PRESIDENT_CACHE_FILE  = "TFIDF_matrices_scores/tfidf_matrix_presidents.csv"
+PARLIAMENT_CACHE_FILE = "TFIDF_matrices_scores/tfidf_matrix_parliamentary.csv"
+PRESIDENT_FILES = {
+    "Iliescu":        "presidential_speeches/iliescu.txt",
+    "Constantinescu": "presidential_speeches/constantinescu.txt",
+    "Basescu":        "presidential_speeches/basescu.txt",
+    "Iohannis":       "presidential_speeches/iohannis.txt",
+}`
 
