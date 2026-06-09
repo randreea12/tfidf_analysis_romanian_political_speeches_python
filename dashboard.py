@@ -22,7 +22,7 @@ st.set_page_config(
 )
 
 # ==================== 1. Set working folder ====================
-os.chdir("D:/vscode projects/data stuff/tfidf")   # all file reads/writes happen here
+os.chdir(os.path.dirname(os.path.abspath(__file__)))  # automatically changes to where the file is on your computer
 
 # ==================== 2. File name constants ====================
 # Centralise all file names so we only need to change them in one place
