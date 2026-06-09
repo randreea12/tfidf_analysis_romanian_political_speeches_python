@@ -1,6 +1,6 @@
 """
 Romanian Political Speech Analysis — Streamlit Dashboard
-Run with: python -m streamlit run "D:\vscode projects\data stuff\tfidf\dashboard.py"
+Run with: python -m streamlit run dashboard.py
 """
 
 import os
