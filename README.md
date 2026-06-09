@@ -67,7 +67,13 @@ python -m streamlit run dashboard.py
 - Parliamentary TF-IDF analysis by presidential term
 - President vs Parliament vocabulary comparison
 
+## What is TF-IDF?
+
+TF-IDF stands for Term Frequency-Inverse Document Frequency. It is a text analysis technique that highlights words that are important or distinctive in one document compared to a collection of documents. 
+In this project, TF-IDF is used to find the most characteristic words for each president and for parliamentary speech groups.
+
 ## Troubleshooting
 
 - `The term 'streamlit' is not recognized` — use `python -m streamlit run dashboard.py`
 - `Execution policies` when activating venv in PowerShell — either use the `.bat` activate script or run PowerShell as administrator and adjust policy to `RemoteSigned` temporarily.
+
