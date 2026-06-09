@@ -58,6 +58,7 @@ python -m streamlit run dashboard.py
 - Run the dashboard from the project directory (where `dashboard.py` lives).
 - The app expects data files to be in the same directory.
 - The dashboard uses cached TF-IDF CSV files if present; if they are missing, it will show warnings and require the caches to be generated before visualizing TF-IDF data.
+- You can avoid recomputing TF-IDF by downloading the precomputed CSV cache files (`tfidf_matrix_presidents.csv` and `tfidf_matrix_parliamentary.csv`) and placing them in the project directory. However, the full parliamentary dataset file `ParlEE_RO_plenary_speeches.csv` is still required for other analyses and cannot be replaced by the cached CSVs.
 
 ## What the Dashboard Shows
 
